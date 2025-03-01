@@ -1,0 +1,42 @@
+.div-sml{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    margin-left: 2px;
+}
+#burlywood{
+    background-color:burlywood;
+    border: 2px solid black ;
+}
+#orangered{
+    background-color: orangered;
+    border: 2px solid black ;
+}
+#yellow{
+    background-color:yellow ;
+    border: 2px solid black ;
+}
+#green{
+    background-color: green ;
+    border: 2px solid black ;
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 15%;
+   
+}
+#child{
+    width: 408px;
+    height: 102px;
+    display: flex;
+    justify-content:center ;
+    justify-content: space-between;
+}
+
+body{
+    background-color: beige;
+}
